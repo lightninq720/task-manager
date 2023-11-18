@@ -4,10 +4,10 @@ from PyQt5 import QtGui
 class FoldersView(QWidget):
     def __init__(self, parent):
         super().__init__(parent=parent)
-        # self.setStyleSheet("background-color: rgb(25,25,25); margin:0px; border:0px solid rgb(0, 0, 0);")
+        self.setStyleSheet("background-color: rgb(25,25,25); margin:0px; border:3px solid rgb(0, 0, 0);")
 
         title = QLabel(self)
-        title.setText("Folders")
+        title.setText("<font color='white'>Folders</font>")
 
         folder_list = QListView()
         model = QtGui.QStandardItemModel()

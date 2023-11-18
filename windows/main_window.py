@@ -9,6 +9,8 @@ from components import FoldersView, NotesView
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
+
+        self.setStyleSheet("background-color: rgb(25,25,25); margin:0px; border:0px solid rgb(0, 0, 0);")
         
         self.setWindowTitle("Task Manager")
         self.setMinimumHeight(600)
