@@ -1,2 +1,2 @@
-from .folders import FoldersView
-from .notes import NotesView
+from .folder_view import FoldersView
+from .notes_view import NotesView
